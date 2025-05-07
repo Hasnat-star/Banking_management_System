@@ -47,6 +47,7 @@ namespace BMS_WinForm.DL
                 else if (comma == field)
                 {
                     item = item + record[i];
+                    //
                 }
             }
             return item;
