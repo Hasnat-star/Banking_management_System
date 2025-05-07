@@ -441,5 +441,14 @@
   <ItemGroup>
     <None Include="Resources\logout.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\customers.txt" />
+    <Content Include="bin\Debug\depositHistory.txt" />
+    <Content Include="bin\Debug\feedBacks.txt" />
+    <Content Include="bin\Debug\sendMoneyPath.txt" />
+    <Content Include="bin\Debug\transactHistory.txt" />
+    <Content Include="bin\Debug\Users.txt" />
+    <Content Include="bin\Debug\withDrawHistory.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
